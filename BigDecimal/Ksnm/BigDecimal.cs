@@ -8,7 +8,7 @@ namespace Ksnm
     {
         public static BigDecimal One => throw new NotImplementedException();
 
-        public static int Radix => throw new NotImplementedException();
+        public static int Radix => 10;
 
         public static BigDecimal Zero => throw new NotImplementedException();
 
@@ -18,7 +18,7 @@ namespace Ksnm
 
         static BigDecimal INumberBase<BigDecimal>.One => throw new NotImplementedException();
 
-        static int INumberBase<BigDecimal>.Radix => throw new NotImplementedException();
+        static int INumberBase<BigDecimal>.Radix => 10;
 
         static BigDecimal INumberBase<BigDecimal>.Zero => throw new NotImplementedException();
 
